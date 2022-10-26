@@ -51,7 +51,7 @@ function ArtIndex() {
             console.log(error);
         });
         
-    }, []);
+    }, [materials]);
 
     return (
         <>
