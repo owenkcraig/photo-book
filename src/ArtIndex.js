@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function ArtIndex() {
 
-    const [materials, setMaterials] = useState(['brass (alloy)', 'wood (plant material)', 'clay', 'marble (rock)']);
+    const [materials] = useState(['brass (alloy)', 'wood (plant material)', 'clay', 'marble (rock)']);
     const [menuItems, setMenuItems] = useState([]);
 
     useEffect( () => {
