@@ -30,7 +30,7 @@ function MaterialGallery() {
                 setArt(jsonResult.artObjects);
         })
         
-    }, [])
+    }, [materialName])
 
     return (
         <>
